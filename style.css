@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  background-image: linear-gradient(
+    110deg,
+    rgb(105, 240, 105),
+    rgb(255, 255, 121)
+  );
+}
+h1 {
+  margin: 20px 0 10px 0;
+}
+form input,
+form button {
+  padding: 0.5rem;  
+  border: none;
+  margin: -2px;
+  font-size: 2rem;
+  background-color: white;
+}
+form button{
+  color:rgb(105, 240, 105);
+  background:white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+form button:hover{
+  background:rgb(105, 240, 105);
+  color: white;
+}
+form input,
+form button:focus{
+  outline: 0;
+}
+.list-item {
+  font-size: 27px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(7, 22, 5);
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  margin:10px auto;
+}
+#todo-list{
+  width: 100%;
+}
+.new-todo{
+  display: flex;
+  width: 89%;
+  margin: auto;
+}
+.item-trash{
+  width: 44px;
+  height: 40px;
+  margin:auto 6px;
+  border:none;
+  font-size:27px ;
+  background:rgb(105, 240, 105);
+}
+
+.item-trash:hover{
+  background-color: rgb(7, 22, 5);
+  color: white;
+  transition: all 0.3s ease;
+
+}
+.item-trash:focus{
+  outline: none;
+}
